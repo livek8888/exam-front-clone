@@ -1,3 +1,57 @@
+import styled from "styled-components";
+import Link from "next/link";
+
 export default function Footer() {
-  return <footer>Footer</footer>;
+  return (
+    <Foot>
+      <Container>
+        <Fnb href="/">회사소개</Fnb>
+        <Fnb href="/">고객센터</Fnb>
+        <Fnb href="/">이용약관</Fnb>
+        <Fnb href="/">개인정보처리방침</Fnb>
+      </Container>
+      <Copyright>
+        <Company>티키타카 CO.,LTD.</Company>
+        <CopyrightMessage>COPYRIGHT© 2020 ALL RIGHTS RESERVED</CopyrightMessage>
+      </Copyright>
+    </Foot>
+  );
 }
+
+const Foot = styled.footer`
+  position: absolute;
+  bottom: 75px;
+  width: 100%;
+  height: 160px;
+  background-color: #333;
+`;
+
+const Container = styled.div`
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+`;
+
+const Fnb = styled(Link)`
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+`;
+
+const Copyright = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60px;
+  margin-top: 20px;
+  padding: 20px;
+`;
+
+const Company = styled.p`
+  font-size: 14px;
+  color: white;
+`;
+const CopyrightMessage = styled.p`
+  font-size: 10px;
+  color: #666;
+`;

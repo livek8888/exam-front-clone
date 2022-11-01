@@ -27,7 +27,7 @@ export default function Header() {
           </MyMenu>
         </Buttons>
       </Nav>
-      <Img src="/images/20210106161802_1_0.png" />
+      <Images src="/images/20210106161802_1_0.png" />
     </Container>
   );
 }
@@ -55,7 +55,7 @@ const Buttons = styled.div`
   padding: 14px 0 14px 0;
 `;
 
-const Img = styled.img`
+const Images = styled.img`
   position: absolute;
   object-fit: cover;
   width: 100%;
