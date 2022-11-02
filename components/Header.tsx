@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <Container className="container">
+    <Container>
       <Nav>
         <HomeLink href="/">
           <Logo src="/images/logo.png" />
@@ -27,7 +27,7 @@ export default function Header() {
           </MyMenu>
         </Buttons>
       </Nav>
-      <Images src="/images/20210106161802_1_0.png" />
+      <Banner src="/images/live_commerce_collaboration_banner.png" />
     </Container>
   );
 }
@@ -55,7 +55,7 @@ const Buttons = styled.div`
   padding: 14px 0 14px 0;
 `;
 
-const Images = styled.img`
+const Banner = styled.img`
   position: absolute;
   object-fit: cover;
   width: 100%;

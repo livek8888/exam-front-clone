@@ -24,18 +24,20 @@ const Foot = styled.footer`
   width: 100%;
   height: 160px;
   background-color: #333;
+  box-shadow: rgb(0 0 0 / 5%) 0 -3px 6px;
 `;
 
 const Container = styled.div`
   display: flex;
-  justify-content: space-around;
-  padding-top: 30px;
+  justify-content: space-between;
+  padding: 30px 30px 0 30px;
 `;
 
 const Fnb = styled(Link)`
   color: white;
   text-decoration: none;
   font-size: 12px;
+  font-family: sans-serif;
 `;
 
 const Copyright = styled.div`
@@ -43,15 +45,17 @@ const Copyright = styled.div`
   flex-direction: column;
   justify-content: center;
   height: 60px;
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 5px;
+  padding: 30px;
 `;
 
 const Company = styled.p`
   font-size: 14px;
   color: white;
+  font-family: sans-serif;
 `;
 const CopyrightMessage = styled.p`
   font-size: 10px;
   color: #666;
+  font-family: sans-serif;
 `;
