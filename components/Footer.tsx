@@ -19,12 +19,11 @@ export default function Footer() {
 }
 
 const Foot = styled.footer`
-  position: absolute;
-  bottom: 75px;
   width: 100%;
   height: 160px;
   background-color: #333;
   box-shadow: rgb(0 0 0 / 5%) 0 -3px 6px;
+  padding-bottom: 75px;
 `;
 
 const Container = styled.div`
@@ -35,7 +34,6 @@ const Container = styled.div`
 
 const Fnb = styled(Link)`
   color: white;
-  text-decoration: none;
   font-size: 12px;
   font-family: sans-serif;
 `;

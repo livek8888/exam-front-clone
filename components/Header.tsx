@@ -11,21 +11,23 @@ export default function Header() {
   return (
     <Container>
       <Nav>
-        <HomeLink href="/">
-          <Logo src="/images/logo.png" />
-        </HomeLink>
-        <Buttons>
-          <MyMenu href="/">
-            <FontAwesomeIcon icon={faStore} size="xl" color="white" />
-          </MyMenu>
-          <MyMenu href="/">
-            <FontAwesomeIcon icon={faMagnifyingGlass} size="xl" color="white" />
-          </MyMenu>
-          <MyMenu href="/">
-            <New />
-            <FontAwesomeIcon icon={faBagShopping} size="xl" color="white" />
-          </MyMenu>
-        </Buttons>
+        <NavContainer>
+          <HomeLink href="/">
+            <Logo src="/images/logo.png" />
+          </HomeLink>
+          <Buttons>
+            <MyMenu href="/">
+              <Icon icon={faStore} size="xl" color="black" />
+            </MyMenu>
+            <MyMenu href="/">
+              <Icon icon={faMagnifyingGlass} size="xl" color="black" />
+            </MyMenu>
+            <MyMenu href="/">
+              <New />
+              <Icon icon={faBagShopping} size="xl" color="black" />
+            </MyMenu>
+          </Buttons>
+        </NavContainer>
       </Nav>
       <Banner src="/images/live_commerce_collaboration_banner.png" />
     </Container>
@@ -39,17 +41,26 @@ const Container = styled.header`
 `;
 
 const Nav = styled.div`
-  z-index: 1;
+  z-index: 10;
+  position: fixed;
+  padding: 20px 20px 0 20px;
+  width: 100%;
+`;
+
+const NavContainer = styled.div`
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 20px 0 20px;
+  width: 100%;
+  max-width: 730px;
+  min-width: 280px;
 `;
 
 const Buttons = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100px;
   height: 22px;
   padding: 14px 0 14px 0;
@@ -89,3 +100,5 @@ const New = styled.span`
   background-color: #ff6969;
   border-radius: 10px;
 `;
+
+const Icon = styled(FontAwesomeIcon)``;
