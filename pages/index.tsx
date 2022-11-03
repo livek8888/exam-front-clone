@@ -186,7 +186,7 @@ export default function Index() {
         <SwipContainer
           spaceBetween={100}
           slidesPerView={"auto"}
-          slidesOffsetAfter={150}
+          slidesOffsetAfter={90}
           freeMode={false}
           onSlideChange={() => console.log("slide!")}
           onSwiper={(swiper) => console.log(swiper)}
@@ -714,7 +714,7 @@ export default function Index() {
         <SwipContainer
           spaceBetween={100}
           slidesPerView={4}
-          slidesOffsetAfter={150}
+          slidesOffsetAfter={400}
           onSlideChange={() => console.log("slide!")}
           onSwiper={(swiper) => console.log(swiper)}
         >
@@ -723,24 +723,11 @@ export default function Index() {
               <FontAwesomeIcon
                 icon={faArrowCircleRight}
                 size="3x"
-                color="rgb(236, 144, 175)"
+                color="#ff7784"
               />
               <SwipVeiwMoreText>더 보기</SwipVeiwMoreText>
             </SwipVeiwMore>
           </FeedSwiperSlide>
-          <FeedSwiperSlide>
-            <SwipVeiwMore href="/"></SwipVeiwMore>
-          </FeedSwiperSlide>
-          <FeedSwiperSlide>
-            <SwipVeiwMore href="/"></SwipVeiwMore>
-          </FeedSwiperSlide>
-          <FeedSwiperSlide>
-            <SwipVeiwMore href="/"></SwipVeiwMore>
-          </FeedSwiperSlide>
-          {/* <FeedSwiperSlide>
-            <SwipVeiwMore href="/">
-            </SwipVeiwMore>
-          </FeedSwiperSlide> */}
         </SwipContainer>
       </ArticleArea>
       <ArticleArea>
@@ -901,7 +888,7 @@ export default function Index() {
               <FontAwesomeIcon
                 icon={faArrowCircleRight}
                 size="3x"
-                color="rgb(236, 144, 175)"
+                color="#ff7784"
               />
               <SwipVeiwMoreText>더 보기</SwipVeiwMoreText>
             </SwipVeiwMore>
@@ -920,7 +907,7 @@ export default function Index() {
           spaceBetween={50}
           slidesPerView={4}
           loopAdditionalSlides={100}
-          slidesOffsetAfter={100}
+          slidesOffsetAfter={220}
           onSlideChange={() => console.log("slide!")}
           onSwiper={(swiper) => console.log(swiper)}
         >
@@ -967,7 +954,7 @@ export default function Index() {
               <FontAwesomeIcon
                 icon={faArrowCircleRight}
                 size="3x"
-                color="rgb(236, 144, 175)"
+                color="#ff7784"
               />
               <SwipVeiwMoreText>더 보기</SwipVeiwMoreText>
             </SwipVeiwMore>
@@ -1033,7 +1020,7 @@ const Container = styled.div``;
 const ArticleGoArrow = styled.div``;
 
 const ArticleTitle = styled.h2`
-  margin: 20px 0 0 0;
+  margin: 0;
 `;
 
 const RelativeDiv = styled.div`
@@ -1041,7 +1028,7 @@ const RelativeDiv = styled.div`
 `;
 
 const ArticleArea = styled(RelativeDiv)`
-  padding: 10px 20px 0 20px;
+  padding: 30px 20px 0 20px;
 `;
 
 const Card = styled(RelativeDiv)`

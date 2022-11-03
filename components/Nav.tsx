@@ -8,7 +8,6 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
-import { useState } from "react";
 
 export default function Nav() {
   return (
@@ -16,7 +15,7 @@ export default function Nav() {
       <NaviUl>
         <NaviList>
           <NavigationLink href="/">
-            <Icons icon={faHouse} size="2x" color="#3c3c3c" />
+            <FontAwesomeIcon icon={faHouse} size="2x" color="#3c3c3c" />
           </NavigationLink>
         </NaviList>
         <NaviList>
@@ -26,7 +25,7 @@ export default function Nav() {
         </NaviList>
         <NaviList>
           <NavigationLink href="/">
-            <FontAwesomeIcon icon={faCirclePlus} size="3x" color="#f27fb4" />
+            <Plus src="/images/plus.png" />
           </NavigationLink>
         </NaviList>
         <NaviList>
@@ -44,6 +43,13 @@ export default function Nav() {
   );
 }
 
+const Plus = styled.img`
+  position: absolute;
+  bottom: -43px;
+  width: 90px;
+  height: 90px;
+`;
+
 const Icons = styled(FontAwesomeIcon)`
   transition: all 0.5s;
   &:hover {
@@ -52,6 +58,7 @@ const Icons = styled(FontAwesomeIcon)`
 `;
 
 const Navigation = styled.nav`
+  box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.1);
   z-index: 2;
   position: fixed;
   bottom: 0px;
@@ -63,7 +70,8 @@ const Navigation = styled.nav`
 `;
 
 const NaviUl = styled.ul`
-  padding: 0;
+  position: relative;
+  padding: 5px 0 0 0;
   display: flex;
   align-items: center;
   justify-content: space-around;

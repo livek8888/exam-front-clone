@@ -43,11 +43,12 @@ const Copyright = styled.div`
   flex-direction: column;
   justify-content: center;
   height: 60px;
-  margin-top: 5px;
+  margin-top: 15px;
   padding: 30px;
 `;
 
 const Company = styled.p`
+  margin: 5px 0 5px 0;
   font-size: 14px;
   color: white;
   font-family: sans-serif;
