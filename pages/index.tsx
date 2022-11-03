@@ -188,14 +188,14 @@ export default function Index() {
         >
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/기적을만난사람_양념꼬막장.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
               <SwipProduct href="/">
                 <ProductImage src="/product/양념꼬막장.png" />
                 <ProductInfo>
@@ -218,14 +218,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/MIMISHOP_양념새우장.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
               <SwipProduct href="/">
                 <ProductImage src="/product/양념꼬막장.png" />
                 <ProductInfo>
@@ -247,14 +247,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/MIMISHOP_양념새우장2.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
               <SwipProduct href="/">
                 <ProductImage src="/product/양념꼬막장.png" />
                 <ProductInfo>
@@ -276,14 +276,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/MIMISHOP_양념새우장3.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
               <SwipProduct href="/">
                 <ProductImage src="/product/양념꼬막장.png" />
                 <ProductInfo>
@@ -305,14 +305,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/기적을만난사람_낭만조개탕.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
               <SwipProduct href="/">
                 <ProductImage src="/product/낭만조개탕.png" />
                 <ProductInfo>
@@ -338,14 +338,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/기적을만난사람_낭만조개탕2.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
               <SwipProduct href="/">
                 <ProductImage src="/product/낭만조개탕.png" />
                 <ProductInfo>
@@ -371,14 +371,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/기적을만난사람_허다솜.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
             </SwipVideoArea>
             <SwipFeedLink href="/">
               <SwipFeedTitle>
@@ -395,14 +395,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/기적을만난사람_허다솜2.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
             </SwipVideoArea>
             <SwipFeedLink href="/">
               <SwipFeedTitle>허다솜-큐티☆섹시 ☆힙 ✨패셔니스타</SwipFeedTitle>
@@ -417,14 +417,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/기적을만난사람_허다솜3.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
             </SwipVideoArea>
             <SwipFeedLink href="/">
               <SwipFeedTitle>허다솜-☆피팅모델 언니가 알려주는</SwipFeedTitle>
@@ -439,14 +439,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/기적을만난사람_허다솜4.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
             </SwipVideoArea>
             <SwipFeedLink href="/">
               <SwipFeedTitle>허다솜-요즘 자주입는 힙한 패션소개</SwipFeedTitle>
@@ -461,14 +461,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/기적을만난사람_마사지건.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
               <SwipProduct href="/">
                 <ProductImage src="/product/마사지건.png" />
                 <ProductInfo>
@@ -489,14 +489,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/기적을만난사람_허다솜5.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
             </SwipVideoArea>
             <SwipFeedLink href="/">
               <SwipFeedTitle>허다솜-쉬운 봄&여름 코디! 알려드림</SwipFeedTitle>
@@ -511,14 +511,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/기적을만난사람_허다솜6.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
             </SwipVideoArea>
             <SwipFeedLink href="/">
               <SwipFeedTitle>허다솜-[1인 쇼핑몰 노하우] 따라하기</SwipFeedTitle>
@@ -533,14 +533,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/기적을만난사람_현서.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
               <SwipProduct href="/">
                 <ProductImage src="/product/현서.png" />
                 <ProductInfo>
@@ -562,14 +562,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/기적을만난사람_허다솜7.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
             </SwipVideoArea>
             <SwipFeedLink href="/">
               <SwipFeedTitle>허다솜-163cm 피팅모델의 패션소개</SwipFeedTitle>
@@ -584,14 +584,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/기적을만난사람_허다솜8.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
             </SwipVideoArea>
             <SwipFeedLink href="/">
               <SwipFeedTitle>허다솜-☆나만 입고싶은 하의패션</SwipFeedTitle>
@@ -606,14 +606,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/기적을만난사람_허다솜9.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
             </SwipVideoArea>
             <SwipFeedLink href="/">
               <SwipFeedTitle>허다솜-이별토크 자기 전에 보는 영상</SwipFeedTitle>
@@ -628,14 +628,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/기적을만난사람_허다솜10.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
             </SwipVideoArea>
             <SwipFeedLink href="/">
               <SwipFeedTitle>허다솜-[ENG SUB] 감동적인 스토리</SwipFeedTitle>
@@ -650,14 +650,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/기적을만난사람_허다솜11.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
             </SwipVideoArea>
             <SwipFeedLink href="/">
               <SwipFeedTitle>
@@ -674,14 +674,14 @@ export default function Index() {
           </FeedSwiperSlide>
           <FeedSwiperSlide>
             <SwipVideoArea>
-              <VideoLink href="/">
+              <Links href="/">
                 <SwipVideo
                   src="/videos/기적을만난사람_허다솜12.mp4"
                   muted
                   autoPlay
                   playsInline
                 />
-              </VideoLink>
+              </Links>
             </SwipVideoArea>
             <SwipFeedLink href="/">
               <SwipFeedTitle>
@@ -738,10 +738,167 @@ export default function Index() {
         </SwipContainer>
       </ArticleArea>
       <ArticleArea>
-        <div style={{ height: "220px" }}>Ad-banner</div>
+        <AdBanner>
+          <Links href="/">
+            <AdImage src="/images/Ad/event_banner.png" />
+          </Links>
+        </AdBanner>
       </ArticleArea>
       <ArticleArea>
-        <div style={{ height: "270px" }}>Dodel-product-swiper</div>
+        <ArticleRepresent href="/">
+          <ArticleContainer>
+            <ArticleTitle>모델 인증 상품</ArticleTitle>
+            <ArticleDesc>모델이 직접 사용해본 인증 상품 모음</ArticleDesc>
+          </ArticleContainer>
+          <ArticleGoArrow>{`>`}</ArticleGoArrow>
+        </ArticleRepresent>
+        <SwipContainer
+          spaceBetween={100}
+          slidesPerView={4}
+          freeMode
+          onSlideChange={() => console.log("slide!")}
+          onSwiper={(swiper) => console.log(swiper)}
+        >
+          <FeedSwiperSlide>
+            <ModelProductArea>
+              <ModelProductLink href="/">
+                <ModelProductImage src="/product/model/오연수석류.jpeg" />
+                <ModelProductInfo>
+                  오연수의 生석류 2박스 (70ml*42포)
+                </ModelProductInfo>
+              </ModelProductLink>
+              <PreDiscount>59,600원</PreDiscount>
+              <Discount>53,600원</Discount>
+            </ModelProductArea>
+          </FeedSwiperSlide>
+          <FeedSwiperSlide>
+            <ModelProductArea>
+              <ModelProductLink href="/">
+                <ModelProductImage src="/product/model/오연수석류.jpeg" />
+                <ModelProductInfo>
+                  오연수의 生석류 2박스 (70ml*84포)+착즙수박 500ml
+                </ModelProductInfo>
+              </ModelProductLink>
+              <PreDiscount>125,100원</PreDiscount>
+              <Discount>107,200원</Discount>
+            </ModelProductArea>
+          </FeedSwiperSlide>
+          <FeedSwiperSlide>
+            <ModelProductArea>
+              <ModelProductLink href="/">
+                <ModelProductImage src="/product/model/오연수석류2.jpeg" />
+                <ModelProductInfo>
+                  오연수의 生석류 1박스 (70ml*21포)
+                </ModelProductInfo>
+              </ModelProductLink>
+              <PreDiscount>0원</PreDiscount>
+              <Discount>29,800원</Discount>
+            </ModelProductArea>
+          </FeedSwiperSlide>
+          <FeedSwiperSlide>
+            <ModelProductArea>
+              <ModelProductLink href="/">
+                <ModelProductImage src="/product/model/미네랄칼슘.jpeg" />
+                <ModelProductInfo>미네랄 칼슘 칼빅 (90캡슐)</ModelProductInfo>
+              </ModelProductLink>
+              <PreDiscount>38,000원</PreDiscount>
+              <Discount>29,000원</Discount>
+            </ModelProductArea>
+          </FeedSwiperSlide>
+          <FeedSwiperSlide>
+            <ModelProductArea>
+              <ModelProductLink href="/">
+                <ModelProductImage src="/product/model/맛밤.png" />
+                <ModelProductInfo>
+                  밤뜨레 우리나라맛밤 10개 (각80g)
+                </ModelProductInfo>
+              </ModelProductLink>
+              <PreDiscount>38,000원</PreDiscount>
+              <Discount>37,000원</Discount>
+            </ModelProductArea>
+          </FeedSwiperSlide>
+          <FeedSwiperSlide>
+            <ModelProductArea>
+              <ModelProductLink href="/">
+                <ModelProductImage src="/product/model/맛밤.png" />
+                <ModelProductInfo>
+                  밤뜨레 우리나라맛밤 10개 (각50g)
+                </ModelProductInfo>
+              </ModelProductLink>
+              <PreDiscount>24,000원</PreDiscount>
+              <Discount>23,000원</Discount>
+            </ModelProductArea>
+          </FeedSwiperSlide>
+          <FeedSwiperSlide>
+            <ModelProductArea>
+              <ModelProductLink href="/">
+                <ModelProductImage src="/product/model/밤양갱.png" />
+                <ModelProductInfo>
+                  밤뜨레 국내산 밤양갱10개 (각40g)
+                </ModelProductInfo>
+              </ModelProductLink>
+              <PreDiscount>18,000원</PreDiscount>
+              <Discount>17,000원</Discount>
+            </ModelProductArea>
+          </FeedSwiperSlide>
+          <FeedSwiperSlide>
+            <ModelProductArea>
+              <ModelProductLink href="/">
+                <ModelProductImage src="/product/model/어간장.png" />
+                <ModelProductInfo>옹고집 어간장 500ml</ModelProductInfo>
+              </ModelProductLink>
+              <PreDiscount>14,250원</PreDiscount>
+              <Discount>13,250원</Discount>
+            </ModelProductArea>
+          </FeedSwiperSlide>
+          <FeedSwiperSlide>
+            <ModelProductArea>
+              <ModelProductLink href="/">
+                <ModelProductImage src="/product/model/꼬막장.png" />
+                <ModelProductInfo>
+                  '맛있는녀석들' 매콤꼬막장 200g
+                </ModelProductInfo>
+              </ModelProductLink>
+              <PreDiscount>7,900원</PreDiscount>
+              <Discount>7,400원</Discount>
+            </ModelProductArea>
+          </FeedSwiperSlide>
+          <FeedSwiperSlide>
+            <ModelProductArea>
+              <ModelProductLink href="/">
+                <ModelProductImage src="/product/model/알탕.png" />
+                <ModelProductInfo>
+                  '맛있는녀석들' 낭만어시장 <br />
+                  알탕 500g 2팩
+                </ModelProductInfo>
+              </ModelProductLink>
+              <PreDiscount>38,000원</PreDiscount>
+              <Discount>37,000원</Discount>
+            </ModelProductArea>
+          </FeedSwiperSlide>
+          <FeedSwiperSlide>
+            <ModelProductArea>
+              <ModelProductLink href="/">
+                <ModelProductImage src="/product/model/마사지건.png" />
+                <ModelProductInfo>
+                  바나나빌딩-바디셀 무선 진동 마사지건
+                </ModelProductInfo>
+              </ModelProductLink>
+              <PreDiscount>65,000원</PreDiscount>
+              <Discount>64,000원</Discount>
+            </ModelProductArea>
+          </FeedSwiperSlide>
+          <FeedSwiperSlide>
+            <SwipVeiwMore href="/">
+              <FontAwesomeIcon
+                icon={faArrowCircleRight}
+                size="3x"
+                color="rgb(236, 144, 175)"
+              />
+              <SwipVeiwMoreText>더 보기</SwipVeiwMoreText>
+            </SwipVeiwMore>
+          </FeedSwiperSlide>
+        </SwipContainer>
       </ArticleArea>
       <ArticleArea>
         <div style={{ height: "270px" }}>Daily-supplies-swiper</div>
@@ -749,6 +906,56 @@ export default function Index() {
     </Container>
   );
 }
+
+const Discount = styled.p`
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+`;
+
+const PreDiscount = styled.p`
+  text-decoration: line-through;
+  color: #ccc;
+  font-size: 10px;
+  margin: 8px 0 0 0;
+`;
+
+const ModelProductArea = styled.div`
+  margin-top: 10px;
+  width: 160px;
+  height: 250px;
+`;
+
+const ModelProductInfo = styled.p`
+  margin: 10px 0 8px 0;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: sans-serif;
+`;
+
+const ModelProductImage = styled.img`
+  border-radius: 15px;
+  width: 130px;
+  height: 130px;
+`;
+
+const ModelProductLink = styled(Link)`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+const AdImage = styled.img`
+  width: 100%;
+`;
+
+const AdBanner = styled.div`
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-height: 220px;
+`;
 
 const Container = styled.div``;
 
@@ -1008,7 +1215,7 @@ const SwipProfileLink = styled(Link)`
   align-items: center;
   padding: 0 10px 10px 0;
 `;
-const VideoLink = styled(Link)``;
+const Links = styled(Link)``;
 
 const SwipVeiwMore = styled(Link)`
   width: 160px;
