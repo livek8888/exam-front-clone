@@ -8,6 +8,7 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Nav() {
   return (
@@ -15,12 +16,12 @@ export default function Nav() {
       <NaviUl>
         <NaviList>
           <NavigationLink href="/">
-            <FontAwesomeIcon icon={faHouse} size="2x" color="black" />
+            <Icons icon={faHouse} size="2x" color="#3c3c3c" />
           </NavigationLink>
         </NaviList>
         <NaviList>
           <NavigationLink href="/">
-            <FontAwesomeIcon icon={faRectangleList} size="2x" color="black" />
+            <Icons icon={faRectangleList} size="2x" color="lightgray" />
           </NavigationLink>
         </NaviList>
         <NaviList>
@@ -30,18 +31,25 @@ export default function Nav() {
         </NaviList>
         <NaviList>
           <NavigationLink href="/">
-            <FontAwesomeIcon icon={faMagnifyingGlass} size="2x" color="black" />
+            <Icons icon={faMagnifyingGlass} size="2x" color="lightgray" />
           </NavigationLink>
         </NaviList>
         <NaviList>
           <NavigationLink href="/">
-            <FontAwesomeIcon icon={faUser} size="2x" color="black" />
+            <Icons icon={faUser} size="2x" color="lightgray" />
           </NavigationLink>
         </NaviList>
       </NaviUl>
     </Navigation>
   );
 }
+
+const Icons = styled(FontAwesomeIcon)`
+  transition: all 0.5s;
+  &:hover {
+    filter: invert();
+  }
+`;
 
 const Navigation = styled.nav`
   z-index: 2;

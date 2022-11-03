@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
 import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function Header() {
   return (
@@ -30,9 +31,31 @@ export default function Header() {
         </NavContainer>
       </Nav>
       <Banner src="/images/live_commerce_collaboration_banner.png" />
+      <BannerController
+        spaceBetween={50}
+        slidesPerView={8}
+        loopAdditionalSlides={100}
+        slidesOffsetAfter={600}
+        freeMode
+      >
+        <BannerSlide>●</BannerSlide>
+      </BannerController>
     </Container>
   );
 }
+
+const BannerSlide = styled(SwiperSlide)`
+  display: flex;
+  justify-content: center;
+  color: white;
+`;
+
+const BannerController = styled(Swiper)`
+  z-index: 10;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+`;
 
 const Container = styled.header`
   position: relative;
