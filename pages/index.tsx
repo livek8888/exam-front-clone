@@ -19,7 +19,10 @@ export default function Index() {
         </ArticleRepresent>
         <SwipContainer
           spaceBetween={50}
-          slidesPerView={10}
+          slidesPerView={8}
+          loopAdditionalSlides={100}
+          slidesOffsetAfter={600}
+          freeMode
           onSlideChange={() => console.log("slide!")}
           onSwiper={(swiper) => console.log(swiper)}
         >
@@ -182,7 +185,9 @@ export default function Index() {
       <ArticleArea>
         <SwipContainer
           spaceBetween={100}
-          slidesPerView={4}
+          slidesPerView={"auto"}
+          slidesOffsetAfter={150}
+          freeMode={false}
           onSlideChange={() => console.log("slide!")}
           onSwiper={(swiper) => console.log(swiper)}
         >
@@ -709,6 +714,7 @@ export default function Index() {
         <SwipContainer
           spaceBetween={100}
           slidesPerView={4}
+          slidesOffsetAfter={150}
           onSlideChange={() => console.log("slide!")}
           onSwiper={(swiper) => console.log(swiper)}
         >
@@ -753,8 +759,10 @@ export default function Index() {
           <ArticleGoArrow>{`>`}</ArticleGoArrow>
         </ArticleRepresent>
         <SwipContainer
-          spaceBetween={100}
+          spaceBetween={50}
           slidesPerView={4}
+          loopAdditionalSlides={100}
+          slidesOffsetAfter={600}
           freeMode
           onSlideChange={() => console.log("slide!")}
           onSwiper={(swiper) => console.log(swiper)}
@@ -901,7 +909,70 @@ export default function Index() {
         </SwipContainer>
       </ArticleArea>
       <ArticleArea>
-        <div style={{ height: "270px" }}>Daily-supplies-swiper</div>
+        <ArticleRepresent href="/">
+          <ArticleContainer>
+            <ArticleTitle>생활용품관</ArticleTitle>
+            <ArticleDesc>생활용품관련 상품</ArticleDesc>
+          </ArticleContainer>
+          <ArticleGoArrow>{`>`}</ArticleGoArrow>
+        </ArticleRepresent>
+        <SwipContainer
+          spaceBetween={50}
+          slidesPerView={4}
+          loopAdditionalSlides={100}
+          slidesOffsetAfter={100}
+          onSlideChange={() => console.log("slide!")}
+          onSwiper={(swiper) => console.log(swiper)}
+        >
+          <FeedSwiperSlide>
+            <ModelProductArea>
+              <ModelProductLink href="/">
+                <ModelProductImage src="/product/daily/옷걸이.png" />
+                <ModelProductInfo>
+                  바나나빌딩-논슬립 옷걸이 (30p)
+                </ModelProductInfo>
+              </ModelProductLink>
+              <PreDiscount>11,900원</PreDiscount>
+              <Discount>11,000원</Discount>
+            </ModelProductArea>
+          </FeedSwiperSlide>
+          <FeedSwiperSlide>
+            <ModelProductArea>
+              <ModelProductLink href="/">
+                <ModelProductImage src="/product/daily/건조대.png" />
+                <ModelProductInfo>
+                  바나나빌딩-늘어나라 쭉쭉이 건조대
+                </ModelProductInfo>
+              </ModelProductLink>
+              <PreDiscount>25,800원</PreDiscount>
+              <Discount>25,000원</Discount>
+            </ModelProductArea>
+          </FeedSwiperSlide>
+          <FeedSwiperSlide>
+            <ModelProductArea>
+              <ModelProductLink href="/">
+                <ModelProductImage src="/product/daily/밀대.png" />
+                <ModelProductInfo>
+                  바나나빌딩-생활백서
+                  <br />
+                  인생밀대
+                </ModelProductInfo>
+              </ModelProductLink>
+              <PreDiscount>19,800원</PreDiscount>
+              <Discount>19,000원</Discount>
+            </ModelProductArea>
+          </FeedSwiperSlide>
+          <FeedSwiperSlide>
+            <SwipVeiwMore href="/">
+              <FontAwesomeIcon
+                icon={faArrowCircleRight}
+                size="3x"
+                color="rgb(236, 144, 175)"
+              />
+              <SwipVeiwMoreText>더 보기</SwipVeiwMoreText>
+            </SwipVeiwMore>
+          </FeedSwiperSlide>
+        </SwipContainer>
       </ArticleArea>
     </Container>
   );
